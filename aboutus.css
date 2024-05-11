@@ -1,0 +1,121 @@
+html{
+	scroll-behavior: smooth;
+}
+.about-us{
+	width: 100%;
+}
+.about-us h1{
+	padding:0px 80px;
+	text-transform: uppercase;
+	color: black;
+	margin-top: 30px;
+	font-size: 45px;
+}
+.about-us h1::after{
+	content:"";
+       	height:5px;
+       	width: 270px;
+      	background-color: black;
+      	border-radius: 5px;
+      	display: block;
+}
+.wrapper{
+	margin: 50px auto;
+	padding:0px 60px;
+	overflow: hidden;
+}
+.content{
+	float: left;
+	width: 60%;
+	padding: 0px 30px;
+	text-align: left;
+}
+.content h3{
+	font-size: 25px;
+	color: #222;
+	letter-spacing: 1px;
+}
+.content p{
+	font-size: 17px;
+	font-family: sans-serif;
+	margin-top: 20px;
+	color: black;
+}
+.image-section{
+	width: 30%;
+	float: right;
+	padding: 0px 30px;
+}
+.image-section img{
+	max-width: 100%;
+	border: 2px solid white;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+#team{
+	padding-top: 50px;
+      	padding-bottom: 50px;
+       	color: black;
+     	text-transform: uppercase;
+}
+h2{
+	padding:0px 80px;
+	text-transform: uppercase;
+	color: black;
+	margin-top: 30px;
+	font-size: 35px;
+}
+h2::after{
+	content:"";
+     	height:5px;
+      	width: 220px;
+       	background-color: black;
+       	border-radius: 5px;
+       	display: block;
+}
+.row{
+ 	display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-wrap: wrap;
+}
+.row .col-md-3{
+ 	text-align: center;
+       width: auto;
+       justify-content: center;
+}
+.profile-pic{
+ 	margin-top: 35px;
+       width: auto;
+       padding: 30px;
+       position: relative;
+}
+.profile-pic .img-box{
+	opacity:1;
+       display: block;
+       position: relative;
+}
+.profile-pic .img-box img:hover{
+	filter: grayscale(1);
+       cursor: pointer;
+}
+.profile-pic h3{
+	font-size: 22px;
+       font-weight: bold;
+       margin-top: 15px;
+}
+.profile-pic h4{
+	font-size: 15px;
+       font-weight: bold;
+       margin-top: 15px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust for smaller screens */
+    }
+    p {
+        line-height: 1.5; /* Increase readability */
+        margin: 0 1rem; /* Adjust margins if needed */
+    }
+}
